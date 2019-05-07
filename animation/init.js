@@ -4,8 +4,8 @@ requirejs(['ext_editor_io', 'jquery_190'],
         var io = new extIO({
             multipleArguments: true,
             functions: {
-                python: 'say_hi',
-                js: 'sayHi'
+                python: 'arr_size',
+                js: 'arrSize'
             }
         });
         io.start();

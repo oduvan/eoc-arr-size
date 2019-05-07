@@ -11,18 +11,18 @@ Each test is dict with
 TESTS = {
     "Basics": [
         {
-            "input": ["Alex", 32],
-            "answer": "Hi. My name is Alex and I'm 32 years old"
+            "input": [[1,2,3]],
+            "answer": 3
         },
         {
-            "input": ["Frank", 68],
-            "answer": "Hi. My name is Frank and I'm 68 years old"
+            "input": [[]],
+            "answer": 0
         }
     ],
     "Extra": [
         {
-            "input": ["Pepe", 8],
-            "answer": "Hi. My name is Pepe and I'm 8 years old"
+            "input": [["Pepe", 8]],
+            "answer": 2
         }
     ]
 }
